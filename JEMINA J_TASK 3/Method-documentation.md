@@ -50,7 +50,7 @@
 - [Project 9. Heart Disease Prediction using Machine Learning with Python | Machine Learning Projects](https://www.youtube.com/watch?v=qmqCYC-MBQo)
 
 ---
-### Required tools
+## Required tools :
 - [Kaggle](https://www.kaggle.com/)
 - [JupyterLab](https://jupyter.org/)
 <details>
