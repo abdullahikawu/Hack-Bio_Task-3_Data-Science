@@ -11,7 +11,7 @@
 ### 📕 How did I do it???
 
 <!-- BLOG-POST-LIST:START -->
-- I downloaded the dataset from Kaggle[(Link)](https://www.kaggle.com/ronitf/heart-disease-uci) 
+- I downloaded the dataset from [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci) 
 - I imported the required tools like numpy, pandas and scikit-learn.
 - I converted the csv data into panda data frame using read function and assigned it to a variable "heart_data"
 - I played aroung with that data by printing the first 5, last 5 and thenumber of rows and columns in it using head, tail and shape function.
