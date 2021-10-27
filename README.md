@@ -6,4 +6,4 @@
 **Task - 3 :** _Python Machine Learning Project – Detecting different Diseases_
 
 ## Description:
-> We took the help of online tutorials and created a machine learning model that detects different diseases.
+> We took the help of online tutorials and created machine learning models that detect different diseases.
