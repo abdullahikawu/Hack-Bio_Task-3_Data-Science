@@ -36,7 +36,7 @@ df=pd.read_csv('Documents/HackBio21/stage_2/data/parkinsons.data')
 df.head()
 ```
 
-![Image 1](/imgs/1.png)
+![Image 1](https://github.com/JEMINA-JOHN/Hack-Bio_Task-3_Data-Science/blob/main/JuanmaGarcia_stage_2/imgs/1.png)
 
 3. Get the features and labels from the DataFrame (dataset). The features are all the columns except ‘status’, and the labels are those in the ‘status’ column.
 
@@ -53,7 +53,7 @@ labels=df.loc[:,'status'].values
 print(labels[labels==1].shape[0], labels[labels==0].shape[0])
 ```
 
-![Image 2](/imgs/2.png)
+![Image 2](https://github.com/JEMINA-JOHN/Hack-Bio_Task-3_Data-Science/blob/main/JuanmaGarcia_stage_2/imgs/2.png)
 
 We have 147 ones and 48 zeros in the status column in our dataset.
 
@@ -82,7 +82,7 @@ model=XGBClassifier()
 model.fit(x_train,y_train)
 ```
 
-![Image 3](/imgs/3.png)
+![Image 3](/https://github.com/JEMINA-JOHN/Hack-Bio_Task-3_Data-Science/blob/main/JuanmaGarcia_stage_2/imgs/3.png)
 
 
 8. Finally, generate y_pred (predicted values for x_test) and calculate the accuracy for the model. Print it out.
@@ -93,7 +93,7 @@ y_pred=model.predict(x_test)
 print(accuracy_score(y_test, y_pred)*100)
 ```
 
-![Image 4](/imgs/4.png)
+![Image 4](https://github.com/JEMINA-JOHN/Hack-Bio_Task-3_Data-Science/blob/main/JuanmaGarcia_stage_2/imgs/4.png)
 
 
 
