@@ -47,7 +47,6 @@ Support vector machines (SVMs) are a set of supervised learning methods used for
 :black_small_square:SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation (see Scores and probabilities, below).</br>
 <h3 align="left"> 💻Workflow: </h3>
 We will use the Google Colab Notebooks whih are popular data science tools to do our Model building.</br>
-My Google Colab Notebook is attached to this github repo</br>
 :black_small_square:Importing the libraries.</br>
 :black_small_square:Data collection and analysis.</br>
 :black_small_square:Separating the data according to their features and target.</br>
