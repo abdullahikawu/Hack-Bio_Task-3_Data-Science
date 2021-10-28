@@ -46,5 +46,23 @@ Support vector machines (SVMs) are a set of supervised learning methods used for
 :black_small_square:If the number of features is much greater than the number of samples, avoid over-fitting in choosing Kernel functions and regularization term is crucial.</br>
 :black_small_square:SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation (see Scores and probabilities, below).</br>
 <h3 align="left"> 💻Workflow: </h3>
-We will use the Google Colab Notebooks whih are popular data science tools to do our Model building.
-
+We will use the Google Colab Notebooks whih are popular data science tools to do our Model building.</br>
+:black_small_square:Importing the libraries.</br>
+:black_small_square:Data collection and analysis.</br>
+:black_small_square:Separating the data according to their features and target.</br>
+:black_small_square:Splitting the data to the Training data and Test data.</br>
+:black_small_square:Data Standardization.</br>
+:black_small_square:Model Training using SVM model.</br>
+:black_small_square:Model Evaluation (Calculating the accuracy score).</br>
+:black_small_square:Building a predictive system.</br>
+<h3 align="left">💻Outcomes: </h3>
+:black_small_square:By Executing the code we will get the result as :</br>
+:black_small_square:The accuracy of Training data is 88.46%</br>
+:black_small_square:The accuracy of Test data is 87.17%</br>
+:black_small_square:Results from predictive system. </br>
+<img src=https://user-images.githubusercontent.com/87633445/139292910-f1daffd3-0b01-4e5e-8664-b7b20d8ef35c.png>
+:black_small_square:Here the status is predicted as 1 . </br>
+ Status 1 indicates that the data belongs to Parkisons patients.</br>
+<h3 align="left">References::clipboard: </h3>
+-:link:Document Ref.: [https://data-flair.training/blogs/python-machine-learning-project-detecting-parkinson-disease/]</br>
+-:link:Video tutorial: [https://www.youtube.com/watch?v=HbyN_ey-JVc&list=LL&index=15]
