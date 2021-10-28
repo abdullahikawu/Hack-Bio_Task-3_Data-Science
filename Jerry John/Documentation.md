@@ -45,3 +45,6 @@ Support vector machines (SVMs) are a set of supervised learning methods used for
 :curly_loop:The disadvantages of support vector machines include:</br>
 :black_small_square:If the number of features is much greater than the number of samples, avoid over-fitting in choosing Kernel functions and regularization term is crucial.</br>
 :black_small_square:SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation (see Scores and probabilities, below).</br>
+<h3 align="left"> 💻Workflow: </h3>
+We will use the Google Colab Notebooks whih are popular data science tools to do our Model building.
+
