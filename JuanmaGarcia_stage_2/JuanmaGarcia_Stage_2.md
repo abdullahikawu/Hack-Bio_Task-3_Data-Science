@@ -36,6 +36,8 @@ df=pd.read_csv('Documents/HackBio21/stage_2/data/parkinsons.data')
 df.head()
 ```
 
+![Image 1](/imgs/1.png)
+
 3. Get the features and labels from the DataFrame (dataset). The features are all the columns except ‘status’, and the labels are those in the ‘status’ column.
 
 ```
@@ -46,16 +48,17 @@ labels=df.loc[:,'status'].values
 
 4. The ‘status’ column has values 0 and 1 as labels; let’s get the counts of these labels for both- 0 and 1.
 
-
-
-5. Initialize a MinMaxScaler and scale the features to between -1 and 1 to normalize them. The MinMaxScaler transforms features by scaling them to a given range. The fit_transform() method fits to the data and then transforms it. We don’t need to scale the labels.
-
 ```
 #DataFlair - Get the count of each label (0 and 1) in labels
 print(labels[labels==1].shape[0], labels[labels==0].shape[0])
 ```
 
-6. Now, split the dataset into training and testing sets keeping 20% of the data for testing.
+![Image 2](/imgs/2.png)
+
+We have 147 ones and 48 zeros in the status column in our dataset.
+
+
+5. Initialize a MinMaxScaler and scale the features to between -1 and 1 to normalize them. The MinMaxScaler transforms features by scaling them to a given range. The fit_transform() method fits to the data and then transforms it. We don’t need to scale the labels.
 
 ```
 #DataFlair - Scale the features to between -1 and 1
@@ -64,18 +67,33 @@ x=scaler.fit_transform(features)
 y=labels
 ```
 
-7. Initialize an XGBClassifier and train the model. This classifies using eXtreme Gradient Boosting- using gradient boosting algorithms for modern data science problems. It falls under the category of Ensemble Learning in ML, where we train and predict using many models to produce one superior output.
+6. Now, split the dataset into training and testing sets keeping 20% of the data for testing.
 
 ```
 #DataFlair - Split the dataset
 x_train,x_test,y_train,y_test=train_test_split(x, y, test_size=0.2, random_state=7)
 ```
 
-8. Finally, generate y_pred (predicted values for x_test) and calculate the accuracy for the model. Print it out.
+7. Initialize an XGBClassifier and train the model. This classifies using eXtreme Gradient Boosting- using gradient boosting algorithms for modern data science problems. It falls under the category of Ensemble Learning in ML, where we train and predict using many models to produce one superior output.
 
 ```
 #DataFlair - Train the model
 model=XGBClassifier()
 model.fit(x_train,y_train)
 ```
+
+![Image 3](/imgs/3.png)
+
+
+8. Finally, generate y_pred (predicted values for x_test) and calculate the accuracy for the model. Print it out.
+
+```
+# DataFlair - Calculate the accuracy
+y_pred=model.predict(x_test)
+print(accuracy_score(y_test, y_pred)*100)
+```
+
+![Image 4](/imgs/4.png)
+
+
 
