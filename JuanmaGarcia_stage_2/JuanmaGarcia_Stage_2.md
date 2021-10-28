@@ -82,7 +82,7 @@ model=XGBClassifier()
 model.fit(x_train,y_train)
 ```
 
-![Image 3](/https://github.com/JEMINA-JOHN/Hack-Bio_Task-3_Data-Science/blob/main/JuanmaGarcia_stage_2/imgs/3.png)
+![Image 3](https://github.com/JEMINA-JOHN/Hack-Bio_Task-3_Data-Science/blob/main/JuanmaGarcia_stage_2/imgs/3.png)
 
 
 8. Finally, generate y_pred (predicted values for x_test) and calculate the accuracy for the model. Print it out.
