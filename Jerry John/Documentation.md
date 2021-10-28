@@ -5,3 +5,43 @@ Parkinson's disease is a neurological movement disorder. Common symptoms include
  </br>
 <h2 align="left">Objective: :clipboard:</h2>
 >To create a Machine Learning Classification Model that can classify a patient's case as Parkinsons or not depending on the various feature inputs we use to train the model.</br>
+-:link: Download the dataset [https://www.kaggle.com/nidaguler/parkinsons-data-set] <br>
+<h3 align="left">Dataset Information:</h3>
+
+:small_orange_diamond:About: </br>
+This dataset is composed of a range of biomedical voice measurements from
+31 people, 23 with Parkinson's disease (PD). Each column in the table is a
+particular voice measure, and each row corresponds one of 195 voice
+recording from these individuals ("name" column). The main aim of the data
+is to discriminate healthy people from those with PD, according to "status"
+column which is set to 0 for healthy and 1 for PD.</br>
+The data is in ASCII CSV format. The rows of the CSV file contain an
+instance corresponding to one voice recording. There are around six
+recordings per patient, the name of the patient is identified in the first
+column.For further information or to pass on comments, please contact Max
+Little (littlem '@' robots.ox.ac.uk).</br>
+Further details are contained in the following reference -- if you use this
+dataset, please cite:</br>
+Max A. Little, Patrick E. McSharry, Eric J. Hunter, Lorraine O. Ramig (2008),
+'Suitability of dysphonia measurements for telemonitoring of Parkinson's disease',
+IEEE Transactions on Biomedical Engineering (to appear).</br>
+
+:small_orange_diamond:Source:</br>
+The dataset was created by Max Little of the University of Oxford, in
+collaboration with the National Centre for Voice and Speech, Denver,
+Colorado, who recorded the speech signals. The original study published the
+feature extraction methods for general voice disorders.
+
+:small_orange_diamond:Attribute Information:</br>
+Status - Health status of the subject (one) - Parkinson's, (zero) - healthy
+
+<h3 align="left"> Support Vector Machine </h3>
+Support vector machines (SVMs) are a set of supervised learning methods used for classification, regression and outliers detection.</br>
+:curly_loop:The advantages of support vector machines are:</br>
+:black_small_square:Effective in high dimensional spaces.</br>
+:black_small_square:Still effective in cases where number of dimensions is greater than the number of samples.</br>
+:black_small_square:Uses a subset of training points in the decision function (called support vectors), so it is also memory efficient.</br>
+:black_small_square:Versatile: different Kernel functions can be specified for the decision function. Common kernels are provided, but it is also possible to specify custom kernels.</br>
+:curly_loop:The disadvantages of support vector machines include:</br>
+:black_small_square:If the number of features is much greater than the number of samples, avoid over-fitting in choosing Kernel functions and regularization term is crucial.</br>
+:black_small_square:SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation (see Scores and probabilities, below).</br>
