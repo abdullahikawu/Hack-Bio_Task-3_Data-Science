@@ -35,7 +35,7 @@ To build a model to accurately detect the presence of Parkinson's disease in an 
 
 ![](https://lh5.googleusercontent.com/gEjACoJgr57Twf5-Ko2LHepA7cYgejRKmuGE0V8YFlNF6m5los3uHLZfGyLqH2yDN94SdEpOm4aUmrCIciPEMHKHJa3NcIy7_23vr0hiSo0toZHPDQL20WlBh08nCL8pXSZN7Y4)
 
-6.  In this step, I trained the XGBClassifier API with 80% of the data set 
+6.  In this step, the XGBClassifier API was trained with 80% of the parkinson's data set 
 
 ![](https://lh3.googleusercontent.com/2G0vtdgxeOW91JiTlTxAvvMLa7UmOhciWBTt9Xsd2R6WdRv0El0CAGwwjebAYGKuSGIQgHnaLmppYQz3VBsO9w-gIZ5a7YrkLPOSZNeSQXqVenaLKg0ehTlyzKkRRkYMqPoYGPM)
 
