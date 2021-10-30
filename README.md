@@ -16,5 +16,5 @@
 - [Samuel Adeneye](https://github.com/Sammyspeed75) - [Their work](https://github.com/JEMINA-JOHN/Hack-Bio_Task-3_Data-Science/tree/main/Stage-2-SamAdeneye)
 - [Prem Bahadur Thapa](https://github.com/almightxxx) - [Their work](https://github.com/JEMINA-JOHN/Hack-Bio_Task-3_Data-Science/tree/main/Prem/Stage2-Parkinsons-main)
 - [Hamail](https://github.com/hamiq) - [Their work](https://github.com/JEMINA-JOHN/Hack-Bio_Task-3_Data-Science/tree/main/hammy_parkinsons_prediction-main)
-- [James Uche](https://github.com/iamjamesuche) - [Their work]()
+- [James Uche](https://github.com/iamjamesuche) - [Their work](https://github.com/JEMINA-JOHN/Hack-Bio_Task-3_Data-Science/tree/main/iamjamesuche)
 - [Abdullahi Abubakar Kawu](https://github.com/abdullahikawu) - [Their work]()
