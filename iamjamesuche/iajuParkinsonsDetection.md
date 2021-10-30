@@ -23,7 +23,7 @@ To build a model to accurately detect the presence of Parkinson's disease in an 
 
 ![](https://lh4.googleusercontent.com/nsSTbAOyObep_-FomfK8At6RCQSkjTUiEPSJmKoTZ13jsVxdFbYoYkPLvyKB3ydIRn2WUdS3A_gKk9-YmyvrmR4wN36FZZE8lkMfoe0F8Aah6O6KYv-KGY4eVvaS7FjG26KGRGo)
 
-3.  Data were sorted into features and labels by storing 
+3.  Data were sorted into features and labels by storing the feature columns in the "feature" variable and the status column in "label" variable
 
 ![](https://lh4.googleusercontent.com/_msHNVZH4DCRTj9g3UcAvH0iCo7ObD-TMK2pPQjUqUeAq8co_LMeHvnJyq5M1VaOWBppMZsY6ExLRGaRBZdtVDuKqpfvBT2bj6BCBHLn_zYIS577l7bNYt0eWpsBXbHzXiM8mkM)
 
