@@ -11,7 +11,7 @@ Detecting Parkinson's Disease with Machine Learning Algorithm (XGBoost)
 
 **Aim**
 
-This is a classification problem of supervised machine learning. The objective is to build a model to accurately detect the presence of Parkinson's disease in an individual.
+This is a classification problem of supervised machine learning. The objective is to build a model to accurately detect the presence of Parkinson's disease in an individual based on certain diagnostic measurements included in the dataset.
 
 **Methods**
 
