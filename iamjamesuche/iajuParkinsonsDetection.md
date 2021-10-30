@@ -15,11 +15,11 @@ To build a model to accurately detect the presence of Parkinson's disease in an 
 
 **Methods**
 
-1.  I imported necessary dependencies like pandas, NumPy, os, sys, MinMaxScaler, XGBClassifier, train_test_split, accuracy_score
+1.  I imported necessary library dependencies like pandas, NumPy, os, sys, MinMaxScaler, XGBClassifier, train_test_split, accuracy_score
 
 ![](https://lh6.googleusercontent.com/8uFalyM-aIEvZRXFD1-hcRYtGiLD7qh7Q7IuhxXcEVqDKUl3gTdX8alrrZoVwoXRG_KL3gDoyZELZcVVX6X187jy7vaTOSX9LCzPCR3Ol2VeJ0g1NigkWlNY7lisbDmdbuqzZEE)
 
-2.  The Parkinson's data for this project was obtained from kaggle. The dataset was loaded into a data frame using pandas (read_csv)
+2.  The Parkinson's data for this project was obtained from kaggle. The dataset was loaded into a data frame using pandas (read_csv) and a simple data check was performed.
 
 ![](https://lh4.googleusercontent.com/nsSTbAOyObep_-FomfK8At6RCQSkjTUiEPSJmKoTZ13jsVxdFbYoYkPLvyKB3ydIRn2WUdS3A_gKk9-YmyvrmR4wN36FZZE8lkMfoe0F8Aah6O6KYv-KGY4eVvaS7FjG26KGRGo)
 
