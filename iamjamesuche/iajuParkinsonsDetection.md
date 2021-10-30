@@ -43,6 +43,8 @@ To build a model to accurately detect the presence of Parkinson's disease in an 
 
 ![](https://lh3.googleusercontent.com/EpyZvXHV-lE69ZwtvMSIFi4n-_6VOXrDScQRfpt9MSve6HtFiEPAJpg9sFsoAZNdBPyRZ_Br3lJ6UHQiE45enbcMVZZr56i7AIqv-ukCUMck1uiIqjl8t9QBuvv88_Fb4t1f2Cs)
 
+8.  Project was carried out using Google Colab Notebooks
+
 **Result**
 
 The final result of 94.87% means that this model can accurately detect the presence of Parkinson's disease in an individual.
